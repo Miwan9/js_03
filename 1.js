@@ -7,13 +7,14 @@ var array= [1,2,3,4,5];
 // fir ();
 
 
-//Zadacha2
+//Zadacha 2
 // document.getElementById('btn').onclick=mass;
 // function mass (){
 // 	var b=document.getElementById('inp1');
-// 	console.log(b.value);
+// 	array.push(b.value);
 // 	var c=document.getElementById('inp2');
-// 	console.log(c.value);
+// 	array.push(c.value);
+// 	console.log(array);
 // }
 
 
@@ -34,6 +35,7 @@ function metodShift () {
 //Zadacha5
 document.getElementById('push').onclick=metodPush;
 function metodPush () {
-	array.push(6);
+	var d=document.getElementById('inp1')
+	array.push(d.value);
 	console.log(array);
 }
